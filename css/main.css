@@ -1,0 +1,43 @@
+  /*------- Felirat képre --------*/ 
+  .img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .img-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .img-top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .img-top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .img-bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .img-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .img-responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
